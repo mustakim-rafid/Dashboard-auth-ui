@@ -12,8 +12,8 @@ const LogoutButton = () => {
   return (
     <div>
       <Button
-        className="cursor-pointer"
-        variant={"destructive"}
+        className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors"
+        variant={"secondary"}
         onClick={handleLogout}
       >
         <LogOut />
@@ -24,3 +24,13 @@ const LogoutButton = () => {
 };
 
 export default LogoutButton;
+
+{/* <Link
+                key={`${item.href}-${item.label}`}
+href={item.href}
+onClick={onClose}
+className="flex items-center gap-3 px-3 py-2 rounded-lg text-sm text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors"
+>
+<Icon className="w-5 h-5" />
+{item.label}
+</Link> */}

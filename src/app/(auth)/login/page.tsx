@@ -9,7 +9,7 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Login page",
+  title: "Donezo - Login page",
 }
 
 const LoginPage = async () => {
