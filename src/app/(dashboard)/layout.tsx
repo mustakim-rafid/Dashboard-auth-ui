@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import DashboardLayoutClient from "@/components/module/dashboard/DashboardLayoutClient";
 import { Metadata } from "next";
 
