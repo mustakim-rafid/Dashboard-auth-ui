@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import LoginForm from "@/components/module/auth/LoginForm";
 import {
   Card,
@@ -9,7 +11,7 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Donezo - Login page",
+  title: "Donezo - Login",
 }
 
 const LoginPage = async () => {
